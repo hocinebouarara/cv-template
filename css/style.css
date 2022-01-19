@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #f6f6f6;
+    font-family: 'Lora', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin: 5px;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header {
+    background-color: hsl(234, 66%, 53%);
+    height: auto;
+    overflow: hidden;
+
+}
+header *{
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+} 
+.navbar .logo {
+    float: left;
+    margin-left: 2em;
+    height: inherit;
+}
+.navbar .logo h1 {
+    margin: 9px;
+    font-family: 'Vujahday Script', cursive;
+    font-size: 36px;
+}
+.navbar-center ul {
+    float: left;
+  
+    overflow: auto;
+    list-style: none;
+}
+.navbar-center ul li {
+    float: left;
+    position: relative;
+}
+.navbar-center ul li a {
+    display: block;
+    padding:  4px 8px;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    text-align: end;
+}
+.navbar-center ul li a:hover{
+    border-bottom: 4px solid white;
+    transition: 0.5s;
+}
+.navbar-right {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navbar-right ul {
+    float: left;
+    padding: 0 10px;
+    margin: 0px;
+    list-style: none;
+}
+.navbar-right ul li  {
+    float: left;
+    
+}
+
+.navbar-right ul li {
+    border: 2px solid transparent;
+    margin:4px;
+    padding: 2px 4px 0;
+    border-radius: 60%;
+}
+
+.navbar-right ul li:hover {
+    border: 2px solid;
+    padding: 2px 4px 0;
+    transition: 0.5s;
+
+}
+
+.navbar-right ul li a img {
+    width: 25px;
+}
+header img {
+    float: right;
+    width: 400px;
+    
+}
+header .us {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+header .us h2 {
+    font-size: 36px;
+}
+header .us h6 {
+    margin-top: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+header .us button {
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 7px 25px;
+    border: 2px solid white;
+    border-radius: 28px;
+    font-family: 'Vujahday Script', cursive;
+    font-size: 18px;
+    font-weight: bolder;
+    
+
+}
+header .service-btn {
+    background: white;
+    color: #000;
+    width: 150px;
+}
+header .meet-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 28px;
+}
